@@ -3,25 +3,30 @@ h1{
     color: rgb(255, 255, 255);
 }
 h2{
+    text-align: center;
     font-size: 25px;
     border-bottom: dotted 3px rgb(236, 122, 122) ;
 
 }
 h2::before{
     content: "⚫︎";
-    color: orange;
+    color: rgb(239, 111, 139);
 }
 .contents p:nth-child(3)::first-letter{
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
 .contents img{
-    margin: 10px 0px;
+    display: block;
+    margin: 10px auto;
     width: 70%;
 }
+
 p{
     margin: 0;
     font-size: 20px;
+    text-align: center;
+
 }
 body{
     margin: 0;
@@ -43,7 +48,7 @@ main{
     border: solid 3px rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
-    margin: 20px auto;
+    margin: 20px 0;
 }
 footer{
     background-color: rgb(244, 79, 79);
